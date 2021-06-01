@@ -1,0 +1,54 @@
+import React from "react";
+import './BmiInfo.css'
+
+const BmiInfo = () => {
+  return (
+    <div className="btn-info-wrapper p-4">
+      <section>
+        <h3 className="display-5 text-center mt-2 title text-white slide-right">
+          <strong className="str">Vücut Kitle İndeksi Hesaplama (VKİ)</strong>
+        </h3>
+        <p>
+          Obezite hesaplamada kilonuzun, boy değerinizin karesine bölünmesiyle
+          (kg/m²) hesaplanan Vücut Kitle İndeksi (VKİ) değeri kullanılır ve
+          Dünya Sağlık Örgütü'nün referans aralığı temel alınır. Vücut kitle
+          indeksi sonuçlarına göre 30’un üzeri obez, 40’un üzeri morbid obez,
+          50’nin üzeri süper obez olarak isimlendirilir.
+        </p>
+        <p>
+          Detaylı vücut kitle indeksi ile obezite hesaplamada ise, yaşınız ve
+          cinsiyetiniz de dikkate alınarak kilonuzun, vücut yağ yüzdenizin ve
+          bel çevrenizin normal değerlerde olup olmadığını öğrenebilirsiniz.
+          Vücut kitle indeksi değeriniz zayıf, fazla kilolu, obez ya da morbid
+          obez ise kilo vermek için uzmanların önerilerini yerine getirerek
+          zayıflayabilirsiniz.
+        </p>
+        <p>
+          Obezite, en basit şekilde; sağlığı bozacak ölçüde vücutta anormal ve
+          aşırı yağ birikmesidir. Ayrıca yetişkin kadınlarda vücut ağırlığının,
+          olması gerekenden ortalama yüzde 30, erkeklerde ise yüzde 25 fazla
+          olması da obezite olarak ifade edilebilir.
+        </p>
+        <p>
+          Obeziteyi hesaplamak için tüm dünyada Vücut kitle indeksi (VKİ)
+          hesaplaması kullanılır. VKİ değeriniz kilogram olarak ağırlığınızın,
+          metre cinsinden boy uzunluğunun karesine bölünmesiyle (kg/m²) elde
+          edilir.
+        </p>
+        <p>
+          Boy ve kilo bilgilerinizi VKİ hesaplayıcıya girerek obezite
+          sınıflandırılmasına göre kilonuzun normal değerlerde olup olmadığını
+          öğrenebilirsiniz.
+        </p>
+        <p>
+          Eğer değerleriniz normalin altında ya da üstündeyse, diyetisyen ya da
+          hekiminiz başka ek tetkikler de isteyerek (kas yoğunluğu ölçümü, kan
+          değerleri vb.) size uygun tedaviyi belirleyecektir.
+        </p>
+       
+      </section>
+    </div>
+  );
+};
+
+export default BmiInfo;

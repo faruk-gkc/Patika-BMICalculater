@@ -1,0 +1,12 @@
+.inputs{
+    padding:12px;
+    /* background-color: blue; */
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-bg{
+    background-color: #DEF3FF;
+    border-radius: 4px;
+}
